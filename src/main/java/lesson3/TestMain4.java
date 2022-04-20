@@ -31,20 +31,7 @@ public class TestMain4 {
         deque.removeRight();
         deque.removeRight();
         deque.removeRight();
-
-//
-
-
         System.out.println(deque.getFirst() + " first");
-      //  System.out.println(deque.getLast() + " last");
-//        deque.removeRight();
-        //deque.removeLeft();
-       /*  deque.removeRight();
-        deque.removeRight();
-        deque.removeRight();
-        deque.removeRight();deque.removeRight();*/
-
-
         deque.display();
        /* TwoSideLinkedListImpl<Integer> linkedList = new TwoSideLinkedListImpl<Integer>();
         //TwoSideLinkedListImpl<Integer> linkedList = new  <Integer>();

@@ -29,16 +29,11 @@ public class SimpleLinkedListImpl<E> implements LinkedList<E>, Iterable<E>{
         }
 
         Node<E> removedNode = first;
-        /*System.out.println("first : " + first.value);
-        System.out.println("removedNode : " + removedNode.value);*/
         first = removedNode.next;
-//        System.out.println("first : " + first.value);
         removedNode.next = null;
         size--;
         return removedNode.value;
     }
-
-
     @Override
     public boolean contains(E value) {
         return indexOf(value) != null;
@@ -70,7 +65,6 @@ public class SimpleLinkedListImpl<E> implements LinkedList<E>, Iterable<E>{
 
         Node<E> removedNode = last;
         last = removedNode.prev;
-       // System.out.println("removedNode.prev " + removedNode.prev.value);
         removedNode.prev = null;
         last.next = null;
         size--;
